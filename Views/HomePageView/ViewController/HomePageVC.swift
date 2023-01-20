@@ -52,7 +52,7 @@ class HomePageCollectionVC: BaseCollectionController, UICollectionViewDelegateFl
 extension HomePageCollectionVC: HomePageViewModelDelegate {
     func onSuccessfulNewsLoaded() {
         self.homePageViewModel.activityIndicator.stopAnimating()
-        navigationItem.title = Constants.Texts.topNewsTitle
+        navigationItem.title = Constants.Texts.NewsTitle
         self.collectionView.reloadData()
     }
     

@@ -14,7 +14,7 @@ protocol TopNewsViewModelDelegate: AnyObject {
 
 class TopNewsViewModel {
     
-    private let apiKey = "Your API Key is Here"
+    private let apiKey = "Your API Key"
     private(set) var topNewsResult: TopNews?
     public weak var delegate: TopNewsViewModelDelegate?
  

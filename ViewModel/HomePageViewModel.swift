@@ -13,7 +13,7 @@ protocol HomePageViewModelDelegate: AnyObject {
 }
 
 class HomePageViewModel {
-    private let apiKey = "Your API Key is Here"
+    private let apiKey = "Your API Key"
     private(set) var dataOfNews: DataResult?
     public weak var delegate: HomePageViewModelDelegate?
     

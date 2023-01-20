@@ -12,7 +12,7 @@ class BaseTabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewControllers = [
-            createNavController(viewController: HomePageCollectionVC(), title: Constants.Texts.Home, image: Constants.Texts.imageTextHouse),
+            createNavController(viewController: HomePageCollectionVC(), title: Constants.Texts.NewsTitle, image: Constants.Texts.imageTextHouse),
             createNavController(viewController: TopNewsViewController(), title: Constants.Texts.topNewsTitle, image: Constants.Texts.imageTextProfil)
         ]
     }

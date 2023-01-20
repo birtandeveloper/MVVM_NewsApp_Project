@@ -13,7 +13,7 @@ protocol DetailsPageViewModelDelegate: AnyObject {
 }
 
 class DetailsPageViewModel {
-    private let apiKey = "Your API Key is Here"
+    private let apiKey = "Your API Key"
     private(set) var dataOfNewsDetails: Details?
     public weak var delegate: DetailsPageViewModelDelegate?
     
