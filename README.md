@@ -12,5 +12,6 @@ PACKAGE DEPENDENCIES - Alamofire & SDWebImage
 
 CLEAN CODE CONCEPT IS APPLIED
 
-https://user-images.githubusercontent.com/112268714/213766448-5e271182-691c-436a-9758-e23ff5f982df.mov
+https://user-images.githubusercontent.com/112268714/213779862-b927087a-2000-4960-84e5-b42c5b74609e.mov
+
 
