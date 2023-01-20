@@ -2,7 +2,11 @@ News App with MVVM Design Pattern(Programmatic UI)
 
 I created this App with the NewsAPI. There is no any storyboard. I created the app with programmatic UI according to MVVM design pattern.
 
+API - THE NEWS API (https://www.thenewsapi.com)
+
 DESIGN PATTERN - MVVM
+
+AUTOLAYOUT - PROGRAMMATIC UI
 
 PACKAGE DEPENDENCIES - Alamofire & SDWebImage
 
