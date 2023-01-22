@@ -17,7 +17,7 @@ class HomePageViewModel {
     private(set) var dataOfNews: DataResult?
     public weak var delegate: HomePageViewModelDelegate?
     
-    func fetchData () {
+    func fetchData() {
          let url = "https://api.thenewsapi.com/v1/news/top?api_token=\(apiKey)&locale=us"
          Service.shared.fetchGenericJsonData(urlString: url) {(result: DataResult?, error) in
              self.dataOfNews = result
