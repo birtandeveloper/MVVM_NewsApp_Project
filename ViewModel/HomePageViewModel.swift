@@ -20,7 +20,6 @@ class HomePageViewModel {
     func fetchData() {
          let url = "https://api.thenewsapi.com/v1/news/top?api_token=\(apiKey)&locale=us"
          Service.shared.fetchGenericJsonData(urlString: url) {(result: DataResult?, error) in
-             self.dataOfNews = result
              DispatchQueue.main.async {
                  self.dataOfNews = result
                  self.delegate?.onSuccessfulNewsLoaded()
