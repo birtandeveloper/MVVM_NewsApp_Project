@@ -20,7 +20,6 @@ class DetailsPageViewModel {
     func fetchDetailsData(id: String?) {
         let urlString = "https://api.thenewsapi.com/v1/news/uuid/\(id ?? "")?api_token=\(apiKey)"
         Service.shared.fetchGenericJsonData(urlString: urlString ) { (result: Details?, error) in
-            self.dataOfNewsDetails = result
             DispatchQueue.main.async {
                 self.dataOfNewsDetails = result
                 self.delegate?.onSuccessfulDetailsLoaded()
