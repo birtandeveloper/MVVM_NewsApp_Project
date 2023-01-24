@@ -21,7 +21,6 @@ class TopNewsViewModel {
     func fetchTopNews() {
         let url = "https://api.thenewsapi.com/v1/news/all?api_token=\(apiKey)&language=en&limit=3"
         Service.shared.fetchGenericJsonData(urlString: url) {(result: TopNews?, error) in
-            self.topNewsResult = result
             DispatchQueue.main.async {
                 self.topNewsResult = result
                 self.delegate?.onSuccessfulTopNewsLoaded()
